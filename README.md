@@ -10,7 +10,9 @@ If you want to disable temporarly some folders deletion you can simply Set the v
 If you want to Delete files wich are 10 days old you can change the setting from the Setting.yaml file.
 If you do not want the rotation of the logs you can simply Set the variable Enabled under the Log rotation section to false in the settings.yaml file
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+When you have installed this program, you need to put the files in a Pc Utils folder.
 
 
 
