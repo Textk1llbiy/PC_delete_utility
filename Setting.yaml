@@ -1,0 +1,37 @@
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hours_Between_Executing: 5
+
+# Show or hide the console window
+Iconize_Console: False
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Window Toast Notification Settings
+Window_Toast_Notification: False
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Delete_Files: True
+Delete_specifics_dir: {
+  Download: [C:\Users\pedon\Downloads, False],
+  System_Temp: [C:\Windows\Temp, True],
+  User_Temp: [C:\Users\pedon\AppData\Local\Temp, True],
+  Prefetch: [C:\Windows\Prefetch, True], 
+  Chrome_Cache: [C:\Users\pedon\AppData\Local\Google\Chrome\User Data\Default\Cache, True],
+  Edge_Cache: [C:\Users\pedon\AppData\Local\Microsoft\Edge\User Data\Default\Cache, True],
+  INetCache: [C:\Users\pedon\AppData\Local\Microsoft\Windows\INetCache, True],
+  INetCookies: [C:\Users\pedon\AppData\Local\Microsoft\Windows\INetCookies, True],
+  WebCache: [C:\Users\pedon\AppData\Local\Microsoft\Windows\WebCache, True],
+  windows_logs_Cache: [C:\Windows\Logs, True],
+}
+
+Rotate_logs: True
+Log_Rotation: {
+    Log_File_days_to_keep: 1 # Use only Full numbers no Decimals For more Security and to avoid Errors
+}
+
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
